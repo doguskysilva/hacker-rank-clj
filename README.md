@@ -1,6 +1,6 @@
 # hacker-rank
 
-A Clojure library designed to ... well, that part is up to you.
+A repository to show all my solutions to solve problems in [HackerRank](www.hackerrank.com). Every solution should be your respective tests and all code is developed in Clojure 
 
 ## Usage
 
