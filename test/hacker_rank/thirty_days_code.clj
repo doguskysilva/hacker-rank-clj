@@ -1,7 +1,8 @@
 (ns hacker-rank.thirty-days-code
   (:require [clojure.test :refer :all]
             [hacker-rank.thirty-days-code.day-two :as day-two]
-            [hacker-rank.thirty-days-code.day-three :as day-three]))
+            [hacker-rank.thirty-days-code.day-three :as day-three]
+            [hacker-rank.thirty-days-code.day-six :as day-six]))
 
 (deftest day-two-solve-test
   (testing "Zero parameters should be return 0"
@@ -19,3 +20,9 @@
     (is (= (day-three/solve 8) "Weird"))
     (is (= (day-three/solve 24) "Not Weird"))
     ))
+
+(deftest day-six-solve-test
+  (testing "Outups of day six should be valid"
+    (is (= ["Duls oga"] (day-six/solve ["Douglas"])))
+    (is (= ["abc def"] (day-six/solve  ["adbecf"])))
+    (is (= ["Hce akr" "Rn ak"] (day-six/solve  ["Hacker" "Rank"])))))
