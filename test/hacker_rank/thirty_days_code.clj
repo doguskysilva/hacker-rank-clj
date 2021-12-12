@@ -31,4 +31,5 @@
 
 (deftest day-seven-solve-test
   (testing "Outups of day seven should be valid"
-    (is (= "5 4 3 2 1" (day-seven/solve [1 2 3 4 5])))))
+    (is (= "5 4 3 2 1" (day-seven/solve [1 2 3 4 5])))
+    (is (= "5 4 3 2 1" (day-seven/solve-recur [1 2 3 4 5])))))
