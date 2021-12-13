@@ -5,6 +5,7 @@
             [hacker-rank.thirty-days-code.day-six :as day-six]
             [hacker-rank.thirty-days-code.day-seven :as day-seven]
             [hacker-rank.thirty-days-code.day-nine :as day-nine]
+            [hacker-rank.thirty-days-code.day-10 :as day-10]
             ))
 
 (deftest day-two-solve-test
@@ -40,3 +41,9 @@
     (is (= 1 (day-nine/solve 0)))
     (is (= 1 (day-nine/solve 1)))
     (is (= 6 (day-nine/solve 3)))))
+
+(deftest day-10-solve-test
+  (testing "Outups of day 10 should be valid"
+    (is (= 5 (day-10/solve 125)))
+    (is (= 1 (day-10/solve 5)))
+    (is (= 2 (day-10/solve 13)))))
