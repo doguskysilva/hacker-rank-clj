@@ -1,4 +1,4 @@
-(ns hacker-rank.thirty-days-code.day-eight)
+(ns hacker-rank.thirty-days-code.day-8)
 
 (def fptr (get (System/getenv) "OUTPUT_PATH"))
 

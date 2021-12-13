@@ -1,4 +1,4 @@
-(ns hacker-rank.thirty-days-code.day-two)
+(ns hacker-rank.thirty-days-code.day-2)
 
 (defn value-of-percent [base_value value_percent]
   (* (/ value_percent 100) base_value))

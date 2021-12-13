@@ -1,10 +1,10 @@
 (ns hacker-rank.thirty-days-code
   (:require [clojure.test :refer :all]
-            [hacker-rank.thirty-days-code.day-two :as day-two]
-            [hacker-rank.thirty-days-code.day-three :as day-three]
-            [hacker-rank.thirty-days-code.day-six :as day-six]
-            [hacker-rank.thirty-days-code.day-seven :as day-seven]
-            [hacker-rank.thirty-days-code.day-nine :as day-nine]
+            [hacker-rank.thirty-days-code.day-2 :as day-two]
+            [hacker-rank.thirty-days-code.day-3 :as day-three]
+            [hacker-rank.thirty-days-code.day-6 :as day-six]
+            [hacker-rank.thirty-days-code.day-7 :as day-seven]
+            [hacker-rank.thirty-days-code.day-9 :as day-nine]
             [hacker-rank.thirty-days-code.day-10 :as day-10]
             ))
 

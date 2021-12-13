@@ -1,4 +1,4 @@
-(ns hacker-rank.thirty-days-code.day-nine)
+(ns hacker-rank.thirty-days-code.day-9)
 
 (defn solve [n]
   (if (or (= n 0) (= n 1))

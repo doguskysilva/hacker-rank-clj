@@ -1,4 +1,4 @@
-(ns hacker-rank.thirty-days-code.day-three)
+(ns hacker-rank.thirty-days-code.day-3)
 
 (defn solve [n]
   (cond

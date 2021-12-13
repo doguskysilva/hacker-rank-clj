@@ -1,4 +1,4 @@
-(ns hacker-rank.thirty-days-code.day-six)
+(ns hacker-rank.thirty-days-code.day-6)
 
 (defn rec [word evens odds iter]
   (if word

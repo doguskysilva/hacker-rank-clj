@@ -1,4 +1,4 @@
-(ns hacker-rank.thirty-days-code.day-seven)
+(ns hacker-rank.thirty-days-code.day-7)
 
 (defn solve [numbers]
   (clojure.string/join " " (reverse numbers)))
