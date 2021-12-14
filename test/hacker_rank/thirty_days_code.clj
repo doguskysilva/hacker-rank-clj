@@ -6,6 +6,7 @@
             [hacker-rank.thirty-days-code.day-7 :as day-seven]
             [hacker-rank.thirty-days-code.day-9 :as day-nine]
             [hacker-rank.thirty-days-code.day-10 :as day-10]
+            [hacker-rank.thirty-days-code.day-11 :as day-11]
             ))
 
 (deftest day-two-solve-test
@@ -47,3 +48,34 @@
     (is (= 5 (day-10/solve 125)))
     (is (= 1 (day-10/solve 5)))
     (is (= 2 (day-10/solve 13)))))
+
+(deftest day-11-solve-test
+  (testing "Outups of day 11 should be valid"
+    (let [matrix-1 [[1 1 1 0 0 0]
+                    [0 1 0 0 0 0]
+                    [1 1 1 0 0 0]
+                    [0 0 2 4 4 0]
+                    [0 0 0 2 0 0]
+                    [0 0 1 2 4 0]]
+          matrix-2 [[1 1 1 0 0 0]
+                    [0 1 0 0 0 0]
+                    [1 1 1 0 0 0]
+                    [0 0 0 0 0 0]
+                    [0 0 0 0 0 0]
+                    [0 0 0 0 0 0]]
+          matrix-3 [[1 1 1 0 0 0]
+                    [0 1 0 0 0 0]
+                    [1 1 1 0 0 0]
+                    [0 9 2 -4 -4 0]
+                    [0 0 0 -2 0 0]
+                    [0 0 -1 -2 -4 0]]
+          matrix-4 [[0 -4 -6 0 -7 -6]
+                    [-1 -2 -6 -8 -3 -1]
+                    [-8 -4 -2 -8 -8 -6]
+                    [-3 -1 -2 -5 -7 -4]
+                    [-3 -5 -3 -6 -6 -6]
+                    [-3 -6 0 -8 -6 -7]]]
+    (is (= 19 (day-11/solve matrix-1)))
+    (is (= 7 (day-11/solve matrix-2)))
+    (is (= 13 (day-11/solve matrix-3)))
+    (is (= -19 (day-11/solve matrix-4))))))
