@@ -1,7 +1,5 @@
 (ns hacker-rank.thirty-days-code.day-11)
 
-
-
 (defn solve [matriz]
   (def hourglasses [])
   (doseq [x (range 0 4)]
@@ -14,12 +12,5 @@
                (def hourglasses (conj hourglasses sum-hourglass)))))
   (reduce max hourglasses))
 
-
-(def input [[1 1 1 0 0 0]
-            [0 1 0 0 0 0]
-            [1 1 1 0 0 0]
-            [0 9 2 -4 -4 0]
-            [0 0 0 -2 0 0]
-            [0 0 -1 -2 -4 0]])
 
 
